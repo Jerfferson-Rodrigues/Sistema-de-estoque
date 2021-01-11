@@ -15,14 +15,17 @@
         <p>Itens no estoque: <span id="totalEstoque">0</span></p>
     </div>
 
+    <!--Formulário: Nome, código e quantidade de produtos-->
     <form>
         <table>
             <caption>Cadastro de novos Produtos</caption>
+            <!--Nome do produto-->
             <tr>
                 <td class="alinharRotulos">Nome do produto:</td>
                 <td><input type="text" id="txtnomeproduto"></td>
             </tr>
 
+            <!--Quantidade do produto-->
             <tr>
                 <td class="alinharRotulos">Código do produto:</td>
                 <td><input type="text" id="txtcodproduto"></td>
@@ -45,6 +48,8 @@
                     </select>
                 </td>
             </tr>
+
+            <!--Botoes-->
             <tr>
                 <td colspan="2" align="center">
                     <input type="button" value="Cadastrar" class="alinhabtns" onclick="validarproduto('txtnomeproduto','txtcodproduto', 'qtdproduto')">
