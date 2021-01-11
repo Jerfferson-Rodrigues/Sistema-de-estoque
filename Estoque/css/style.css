@@ -6,14 +6,13 @@
     text-align: right;
 }   
 img{
-    display: flex;
     width: 100px;
     height: 100px;
     float: right;
-    padding: 40px;
+    padding: 0px;
 }
 p{
-    margin-top: 110px;
+    margin-left: 150px;
     float: right;
 }
 .alinhabtns{
@@ -25,14 +24,15 @@ p{
     border-radius: 5px;
     cursor: pointer;
 }
-/* .cesta{
-    width: 900px;
+.cesta{
+    padding: 50px;
+    width: 300px;
     float: right;
 }
-*/
-/* .cesta {
+
+.cesta {
     display: inline;
-} */
+}
 table{
     clear: both;
     background-color: #0099e6;
