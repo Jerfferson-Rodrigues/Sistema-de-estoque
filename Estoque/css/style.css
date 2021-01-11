@@ -4,6 +4,17 @@
 }
 .alinharRotulos{
     text-align: right;
+}   
+img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    float: right;
+    padding: 40px;
+}
+p{
+    margin-top: 110px;
+    float: right;
 }
 .alinhabtns{
     width: 32%;
@@ -14,13 +25,14 @@
     border-radius: 5px;
     cursor: pointer;
 }
-.cesta{
+/* .cesta{
     width: 900px;
     float: right;
 }
-.cesta p{
+*/
+/* .cesta {
     display: inline;
-}
+} */
 table{
     clear: both;
     background-color: #0099e6;
